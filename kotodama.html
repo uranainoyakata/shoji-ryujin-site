@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>龍神言霊授与｜しょうじ</title>
-    <meta name="description" content="瀬戸内に宿る龍神との接続を司る、しょうじ。龍神からのメッセージを受け取り、あなたの運命を本来の流れへと導きます。">
+    <meta name="description" content="21日間の実践であなたの潜在意識を書き換える、龍神からの真言。しょうじがあなただけの言霊を授与します。">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -13,151 +13,38 @@
             theme: {
                 extend: {
                     colors: {
-                        'shrine-red': '#9e2e2b',
-                        'shrine-gold': '#bfa668',
-                        'shrine-dark': '#1a1a1a',
-                        'shrine-paper': '#fbfaf5',
-                        'shrine-gray': '#4a4a4a',
-                        'dragon-blue': '#1e3a5f',
-                        'dragon-cyan': '#4a9eff',
-                        'ocean-teal': '#2d5f6f',
+                        'shrine-red': '#9e2e2b', 'shrine-gold': '#bfa668', 'shrine-dark': '#1a1a1a',
+                        'shrine-paper': '#fbfaf5', 'shrine-gray': '#4a4a4a', 'dragon-blue': '#1e3a5f',
+                        'dragon-cyan': '#4a9eff', 'ocean-teal': '#2d5f6f',
                     },
-                    fontFamily: {
-                        serif: ['"Shippori Mincho"', 'serif'],
-                        calligraphy: ['"Kaisei Tokumin"', 'serif'],
-                    },
+                    fontFamily: { serif: ['"Shippori Mincho"', 'serif'], calligraphy: ['"Kaisei Tokumin"', 'serif'] },
                     animation: {
                         'fade-in-slow': 'fadeIn 2s ease-out forwards',
                         'slide-up': 'slideUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards',
-                        'dragon-swim': 'dragonSwim 30s linear infinite',
-                        'dragon-swim-2': 'dragonSwim2 35s linear infinite',
-                        'dragon-swim-3': 'dragonSwim3 40s linear infinite',
-                        'wave-flow': 'waveFlow 8s ease-in-out infinite',
                         'sparkle': 'sparkle 3s ease-in-out infinite',
+                        'pulse-glow': 'pulseGlow 3s ease-in-out infinite',
                     },
                     keyframes: {
-                        fadeIn: {
-                            '0%': { opacity: '0' },
-                            '100%': { opacity: '1' }
-                        },
-                        slideUp: {
-                            '0%': { opacity: '0', transform: 'translateY(40px)' },
-                            '100%': { opacity: '1', transform: 'translateY(0)' }
-                        },
-                        dragonSwim: {
-                            '0%': {
-                                transform: 'translate(-120%, 0) scale(0.8) rotate(0deg)',
-                                opacity: '0'
-                            },
-                            '10%': {
-                                transform: 'translate(-50%, -5%) scale(0.85) rotate(2deg)',
-                                opacity: '0.4'
-                            },
-                            '30%': {
-                                transform: 'translate(10%, -10%) scale(1) rotate(-3deg)',
-                                opacity: '0.6'
-                            },
-                            '50%': {
-                                transform: 'translate(50%, 5%) scale(0.95) rotate(2deg)',
-                                opacity: '0.7'
-                            },
-                            '70%': {
-                                transform: 'translate(90%, -8%) scale(0.9) rotate(-2deg)',
-                                opacity: '0.5'
-                            },
-                            '90%': {
-                                transform: 'translate(130%, 0%) scale(0.8) rotate(0deg)',
-                                opacity: '0.2'
-                            },
-                            '100%': {
-                                transform: 'translate(150%, 0) scale(0.8) rotate(0deg)',
-                                opacity: '0'
-                            }
-                        },
-                        dragonSwim2: {
-                            '0%': {
-                                transform: 'translate(150%, 10%) scale(0.7) rotate(0deg)',
-                                opacity: '0'
-                            },
-                            '10%': {
-                                transform: 'translate(120%, 8%) scale(0.75) rotate(-2deg)',
-                                opacity: '0.3'
-                            },
-                            '30%': {
-                                transform: 'translate(80%, 15%) scale(0.9) rotate(3deg)',
-                                opacity: '0.5'
-                            },
-                            '50%': {
-                                transform: 'translate(40%, 5%) scale(1) rotate(-2deg)',
-                                opacity: '0.6'
-                            },
-                            '70%': {
-                                transform: 'translate(10%, 12%) scale(0.85) rotate(2deg)',
-                                opacity: '0.4'
-                            },
-                            '90%': {
-                                transform: 'translate(-30%, 8%) scale(0.7) rotate(0deg)',
-                                opacity: '0.2'
-                            },
-                            '100%': {
-                                transform: 'translate(-50%, 10%) scale(0.7) rotate(0deg)',
-                                opacity: '0'
-                            }
-                        },
-                        dragonSwim3: {
-                            '0%': {
-                                transform: 'translate(-100%, 20%) scale(0.6) rotate(0deg)',
-                                opacity: '0'
-                            },
-                            '15%': {
-                                transform: 'translate(-20%, 18%) scale(0.7) rotate(3deg)',
-                                opacity: '0.3'
-                            },
-                            '40%': {
-                                transform: 'translate(30%, 25%) scale(0.85) rotate(-2deg)',
-                                opacity: '0.5'
-                            },
-                            '60%': {
-                                transform: 'translate(70%, 15%) scale(0.9) rotate(2deg)',
-                                opacity: '0.6'
-                            },
-                            '85%': {
-                                transform: 'translate(110%, 22%) scale(0.7) rotate(-1deg)',
-                                opacity: '0.3'
-                            },
-                            '100%': {
-                                transform: 'translate(140%, 20%) scale(0.6) rotate(0deg)',
-                                opacity: '0'
-                            }
-                        },
-                        waveFlow: {
-                            '0%, 100%': { transform: 'translateX(0) translateY(0)' },
-                            '50%': { transform: 'translateX(20px) translateY(-10px)' }
-                        },
-                        sparkle: {
-                            '0%, 100%': { opacity: '0', transform: 'scale(0)' },
-                            '50%': { opacity: '1', transform: 'scale(1)' }
-                        }
+                        fadeIn: { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+                        slideUp: { '0%': { opacity: '0', transform: 'translateY(40px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        sparkle: { '0%, 100%': { opacity: '0', transform: 'scale(0)' }, '50%': { opacity: '1', transform: 'scale(1)' } },
+                        pulseGlow: { '0%, 100%': { boxShadow: '0 0 20px rgba(191,166,104,0.3)' }, '50%': { boxShadow: '0 0 40px rgba(191,166,104,0.6), 0 0 60px rgba(191,166,104,0.2)' } },
                     },
                     backgroundImage: {
                         'gold-dust': "url(\"data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23bfa668' fill-opacity='0.15'%3E%3Ccircle cx='10' cy='10' r='1'/%3E%3Ccircle cx='40' cy='30' r='0.5'/%3E%3Ccircle cx='80' cy='60' r='1.5'/%3E%3Ccircle cx='20' cy='80' r='0.5'/%3E%3C/g%3E%3C/svg%3E\")",
-                        'ocean-wave': "url(\"data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 50 Q 25 40, 50 50 T 100 50' stroke='%234a9eff' stroke-width='0.5' fill='none' opacity='0.1'/%3E%3Cpath d='M0 60 Q 25 50, 50 60 T 100 60' stroke='%232d5f6f' stroke-width='0.5' fill='none' opacity='0.1'/%3E%3C/svg%3E\")",
                     }
                 }
             }
         }
     </script>
-
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&family=Kaisei+Tokumin:wght@500;700;800&family=Zen+Old+Mincho:wght@400;700;900&display=swap"
         rel="stylesheet">
-
     <style>
         :root {
             --shrine-red: #9e2e2b;
@@ -167,24 +54,16 @@
             --ocean-teal: #2d5f6f;
         }
 
+        * {
+            -webkit-tap-highlight-color: transparent;
+        }
+
         body {
             font-family: 'Zen Old Mincho', 'Shippori Mincho', serif;
             background-color: var(--paper);
             color: #1a1a1a;
             overflow-x: hidden;
             line-height: 2.0;
-        }
-
-        .writing-vertical {
-            writing-mode: vertical-rl;
-            text-orientation: upright;
-            letter-spacing: 0.12em;
-        }
-
-        @media (min-width: 768px) {
-            .writing-vertical {
-                letter-spacing: 0.15em;
-            }
         }
 
         .washi-bg {
@@ -216,7 +95,6 @@
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
-            text-shadow: 0 2px 4px rgba(191, 166, 104, 0.2);
         }
 
         .dragon-text-effect {
@@ -227,79 +105,11 @@
             filter: drop-shadow(0 0 8px rgba(74, 158, 255, 0.4));
         }
 
-        .kasumi-divider {
-            height: 40px;
-            background-image: radial-gradient(circle at center, var(--shrine-gold) 1px, transparent 1.5px);
-            background-size: 8px 8px;
-            opacity: 0.3;
-            mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+        .seigaiha-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='40' viewBox='0 0 80 40'%3E%3Cpath d='M0 40 Q20 20 40 40 Q60 20 80 40' fill='none' stroke='%23bfa668' stroke-width='0.5' opacity='0.25'/%3E%3C/svg%3E");
+            background-size: 80px 40px;
         }
 
-        .vermilion-stamp {
-            border: 2px solid var(--shrine-red);
-            color: var(--shrine-red);
-            border-radius: 4px;
-            padding: 0.2em 0.6em;
-            display: inline-block;
-            font-weight: bold;
-            font-family: 'Kaisei Tokumin', serif;
-        }
-
-        .dragon-stamp {
-            border: 2px solid var(--dragon-blue);
-            color: var(--dragon-blue);
-            border-radius: 4px;
-            padding: 0.2em 0.6em;
-            display: inline-block;
-            font-weight: bold;
-            font-family: 'Kaisei Tokumin', serif;
-            background: linear-gradient(135deg, rgba(74, 158, 255, 0.1), rgba(45, 95, 111, 0.1));
-        }
-
-        .no-scrollbar::-webkit-scrollbar {
-            display: none;
-        }
-
-        /* Dragon Animation */
-        .dragon-container {
-            position: absolute;
-            width: 350px;
-            height: 350px;
-            pointer-events: none;
-            filter: drop-shadow(0 0 30px rgba(74, 158, 255, 0.6));
-            will-change: transform, opacity;
-        }
-
-        @media (max-width: 768px) {
-            .dragon-container {
-                width: 200px;
-                height: 200px;
-            }
-        }
-
-        /* Water ripple effect */
-        .water-ripple {
-            position: absolute;
-            border-radius: 50%;
-            border: 2px solid rgba(74, 158, 255, 0.3);
-            animation: ripple 4s ease-out infinite;
-        }
-
-        @keyframes ripple {
-            0% {
-                width: 0;
-                height: 0;
-                opacity: 0.8;
-            }
-
-            100% {
-                width: 300px;
-                height: 300px;
-                opacity: 0;
-            }
-        }
-
-        /* Sparkle particles */
         .sparkle-particle {
             position: absolute;
             width: 4px;
@@ -308,242 +118,185 @@
             border-radius: 50%;
             animation: sparkle 3s ease-in-out infinite;
         }
+
+        .gold-sparkle {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: radial-gradient(circle, #fff, #bfa668);
+            border-radius: 50%;
+            animation: sparkle 4s ease-in-out infinite;
+        }
+
+        .inkan-stamp {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.5em;
+            height: 2.5em;
+            border: 2px solid var(--shrine-red);
+            border-radius: 50%;
+            color: var(--shrine-red);
+            font-weight: 900;
+            font-family: 'Kaisei Tokumin', serif;
+            font-size: 0.7em;
+            opacity: 0.7;
+            transform: rotate(-8deg);
+        }
+
+        .benefit-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(74, 158, 255, 0.1), rgba(45, 95, 111, 0.15));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            flex-shrink: 0;
+        }
     </style>
 </head>
 
 <body>
     <div id="root"></div>
-
     <script type="text/babel">
         const { useState, useEffect, useRef } = React;
 
         const Background = () => {
             const [sparkles, setSparkles] = useState([]);
-
-            useEffect(() => {
-                const newSparkles = Array.from({ length: 30 }, (_, i) => ({
-                    id: i,
-                    left: Math.random() * 100,
-                    top: Math.random() * 100,
-                    delay: Math.random() * 3,
-                }));
-                setSparkles(newSparkles);
-            }, []);
-
-            return (
-                <div className="fixed inset-0 pointer-events-none z-0 washi-bg">
-                    <div className="absolute inset-0 bg-ocean-wave opacity-20"></div>
-                    <div className="absolute inset-0 bg-gold-dust opacity-30"></div>
-
-                    {/* Sparkle particles */}
-                    {sparkles.map(sparkle => (
-                        <div
-                            key={sparkle.id}
-                            className="sparkle-particle"
-                            style={{
-                                left: `${sparkle.left}%`,
-                                top: `${sparkle.top}%`,
-                                animationDelay: `${sparkle.delay}s`,
-                            }}
-                        />
-                    ))}
-                </div>
-            );
+            useEffect(() => { setSparkles(Array.from({ length: 15 }, (_, i) => ({ id: i, left: Math.random() * 100, top: Math.random() * 100, delay: Math.random() * 4, isGold: Math.random() > 0.5 }))); }, []);
+            return (<div className="fixed inset-0 pointer-events-none z-0 washi-bg"><div className="absolute inset-0 bg-gold-dust opacity-30"></div>{sparkles.map(s => (<div key={s.id} className={s.isGold ? 'gold-sparkle' : 'sparkle-particle'} style={{ left: `${s.left}%`, top: `${s.top}%`, animationDelay: `${s.delay}s` }} />))}</div>);
         };
 
-
-
-        const SectionPhoto = ({ src, alt }) => (
-            <figure className="mt-6 md:mt-8 relative p-1 bg-white border border-shrine-gold/30 shadow-sm">
-                <div className="aspect-[16/9] w-full relative">
-                    <img src={src} alt={alt} className="h-full w-full object-cover" loading="lazy" />
-                    <div className="absolute top-2 left-2 w-3 h-3 md:w-4 md:h-4 border-t border-l border-white/80"></div>
-                    <div className="absolute top-2 right-2 w-3 h-3 md:w-4 md:h-4 border-t border-r border-white/80"></div>
-                    <div className="absolute bottom-2 left-2 w-3 h-3 md:w-4 md:h-4 border-b border-l border-white/80"></div>
-                    <div className="absolute bottom-2 right-2 w-3 h-3 md:w-4 md:h-4 border-b border-r border-white/80"></div>
+        const FixedNav = () => (
+            <nav className="fixed top-0 left-0 right-0 z-50 bg-shrine-dark/95 backdrop-blur-sm border-b border-shrine-gold/20">
+                <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
+                    <a href="index.html" className="flex items-center gap-2 text-shrine-gold hover:text-dragon-cyan transition-colors text-sm font-serif tracking-widest"><span>←</span><span>ホーム</span></a>
+                    <div className="font-calligraphy text-shrine-paper/80 text-sm tracking-widest">龍神言霊授与</div>
+                    <a href="https://lin.ee/mR2IPIr" target="_blank" rel="noopener noreferrer" className="bg-shrine-red/90 text-white text-xs px-4 py-2 tracking-widest font-bold rounded-sm hover:bg-shrine-red transition-colors">LINE相談</a>
                 </div>
-            </figure>
+            </nav>
         );
 
-        const CollapsibleDescription = ({ children }) => {
-            const [isOpen, setIsOpen] = useState(false);
-            return (
-                <div className="mt-5 md:mt-6 w-full flex flex-col items-start">
-                    <button
-                        onClick={() => setIsOpen(!isOpen)}
-                        className="group flex items-center gap-3 text-sm md:text-base text-shrine-dark font-bold border-b border-shrine-gold/50 pb-1 hover:text-dragon-cyan transition-colors"
-                    >
-                        <span className={`w-2 h-2 bg-dragon-cyan transform rotate-45 transition-transform duration-300 ${isOpen ? 'rotate-0' : ''}`}></span>
-                        {isOpen ? '詳細を閉じる' : '詳細を拝見する'}
-                    </button>
-                    <div className={`w-full grid transition-[grid-template-rows] duration-500 ease-out ${isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
-                        <div className="overflow-hidden">
-                            <div className="pt-4 pb-2 text-sm md:text-base leading-loose text-justify text-shrine-gray">
-                                {children}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            );
-        };
-
         const App = () => {
-            const itemsRef = React.useRef([]);
+            const itemsRef = useRef([]);
             useEffect(() => {
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('animate-slide-up');
-                            observer.unobserve(entry.target);
-                        }
-                    });
-                }, { threshold: 0.1 });
-                // Delay observation slightly to allow DOM to settle
-                setTimeout(() => {
-                    itemsRef.current.forEach(el => el && observer.observe(el));
-                }, 100);
+                const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('animate-slide-up'); observer.unobserve(entry.target); } }); }, { threshold: 0.08 });
+                setTimeout(() => { itemsRef.current.forEach(el => el && observer.observe(el)); }, 200);
+                return () => observer.disconnect();
             }, []);
+            const addToRefs = (el) => { if (el && !itemsRef.current.includes(el)) itemsRef.current.push(el); };
 
-            const addToRefs = (el) => {
-                if (el && !itemsRef.current.includes(el)) itemsRef.current.push(el);
-            };
+            const benefits = [
+                { icon: '🔥', text: '潜在意識の書き換え' },
+                { icon: '📿', text: 'あなただけの真言' },
+                { icon: '🌅', text: '21日間の実践プログラム' },
+                { icon: '🐉', text: '龍神の加護' },
+            ];
 
             return (
                 <React.Fragment>
-
+                    <FixedNav />
                     <div className="min-h-screen w-full relative overflow-hidden">
                         <Background />
-
-                        {/* --- Header --- */}
-                        <header className="relative z-10 w-full flex flex-col items-center pt-16 pb-16 md:pt-28 md:pb-32 px-5">
-
-                            {/* ロゴ: 龍神モチーフ */}
-                            <div className="mb-8 md:mb-12 opacity-80 animate-fade-in-slow transform scale-90 md:scale-100">
-                                <svg width="80" height="80" viewBox="0 0 100 100" className="stroke-dragon-blue fill-none stroke-[1.5]">
-                                    <circle cx="50" cy="50" r="40" className="stroke-dragon-cyan" />
-                                    <path d="M50 10 L50 90 M10 50 L90 50" className="stroke-ocean-teal/30" />
-                                    <circle cx="50" cy="50" r="25" className="stroke-shrine-gold" />
-                                    <path d="M 30 50 Q 40 40, 50 50 T 70 50" className="stroke-dragon-blue stroke-[2]" />
-                                </svg>
-                            </div>
-
-                            {/* キャッチコピーエリア - Subpage Header */}
-                            <div className="max-w-4xl w-full flex flex-col items-center justify-center gap-6 mt-8 mb-16">
-                                <h1 className="text-3xl md:text-5xl font-bold font-calligraphy tracking-widest text-shrine-dark drop-shadow-sm text-center">
-                                    <span className="dragon-text-effect">龍神言霊授与</span>
-                                </h1>
+                        <header className="relative z-10 w-full flex flex-col items-center pt-24 pb-12 md:pt-32 md:pb-20 px-5 bg-gradient-to-b from-dragon-blue/5 to-transparent">
+                            <div className="mb-6 opacity-80 animate-fade-in-slow"><span className="inkan-stamp text-base">言</span></div>
+                            <div className="max-w-4xl w-full flex flex-col items-center justify-center gap-4 mb-8">
+                                <h1 className="text-3xl md:text-5xl font-bold font-calligraphy tracking-widest text-shrine-dark drop-shadow-sm text-center"><span className="dragon-text-effect">龍神言霊授与</span></h1>
                                 <div className="w-16 h-[2px] bg-gradient-to-r from-transparent via-shrine-gold to-transparent"></div>
-                                <p className="font-serif text-shrine-gray text-sm md:text-base tracking-widest text-center">
-                                    声という振動で、運命を書き換える
-                                </p>
+                                <p className="font-serif text-shrine-gray text-sm md:text-base tracking-widest text-center">言葉の力で、運命を塗り替える</p>
                             </div>
                         </header>
 
+                        <section ref={addToRefs} className="opacity-0 relative z-10 max-w-4xl mx-auto px-5 mb-12 md:mb-16">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                {benefits.map((b, i) => (<div key={i} className="flex flex-col items-center text-center gap-3 p-4 bg-white/60 border border-shrine-gold/15 rounded-sm"><div className="benefit-icon">{b.icon}</div><span className="text-sm font-bold text-shrine-dark leading-snug">{b.text}</span></div>))}
+                            </div>
+                        </section>
 
-
-                        {/* --- Menu Index --- */}
-                        <section className="relative z-10 max-w-5xl mx-auto px-5 pb-32 md:pb-40 space-y-20 md:space-y-24">
-
-                            {/* 03 言霊 - Detailed View */}
+                        <section className="relative z-10 max-w-5xl mx-auto px-5 pb-20 md:pb-32 space-y-16 md:space-y-20">
                             <article ref={addToRefs} className="opacity-0">
                                 <div className="flex flex-col md:flex-row gap-8 md:gap-16 mb-12">
                                     <div className="md:w-1/2">
-                                        <SectionPhoto src="https://i.ibb.co/0p4rBQMM/Gemini-Generated-Image-imfrlrimfrlrimfr.jpg" alt="龍神言霊" />
+                                        <figure className="relative p-1 bg-white border border-shrine-gold/30 shadow-sm">
+                                            <div className="aspect-[16/9] w-full relative">
+                                                <img src="https://i.ibb.co/0p4rBQMM/Gemini-Generated-Image-imfrlrimfrlrimfr.jpg" alt="言霊" className="h-full w-full object-cover" loading="lazy" />
+                                                <div className="absolute top-2 left-2 w-3 h-3 border-t border-l border-white/80"></div>
+                                                <div className="absolute top-2 right-2 w-3 h-3 border-t border-r border-white/80"></div>
+                                                <div className="absolute bottom-2 left-2 w-3 h-3 border-b border-l border-white/80"></div>
+                                                <div className="absolute bottom-2 right-2 w-3 h-3 border-b border-r border-white/80"></div>
+                                            </div>
+                                        </figure>
                                     </div>
                                     <div className="md:w-1/2 flex flex-col justify-center">
-                                        <h2 className="text-2xl md:text-3xl font-bold font-calligraphy text-shrine-dark mb-6">
-                                            <span className="border-b-2 border-dragon-cyan pb-2">言霊（真言）について</span>
-                                        </h2>
-                                        <p className="text-shrine-gray text-base leading-loose font-serif text-justify">
-                                            言葉には「霊」が宿ります。龍神から授かったあなただけの「言霊」を、毎日唱える。ただそれだけで、あなたの周波数は劇的に変化します。<br /><br />
-                                            21日間、毎朝唱え続けることで、潜在意識に刻まれた負の記憶が浄化され、龍神との繋がりが強固になります。あなたの中に眠る「神性」を呼び覚ますための、最も強力なメソッドです。
+                                        <h2 className="text-2xl md:text-3xl font-bold font-calligraphy text-shrine-dark mb-6"><span className="border-b-2 border-dragon-cyan pb-2">言霊の力</span></h2>
+                                        <p className="text-shrine-gray text-[15px] md:text-base leading-[2.0] font-serif text-justify">
+                                            古来より、日本人は「言葉に魂が宿る」と信じてきました。<br /><br />
+                                            しょうじが龍神と接続し、あなたの魂が最も必要としている真言（マントラ）を受け取ります。<br />
+                                            この言霊を21日間、毎日声に出して唱えることで、潜在意識が書き換わり、現実が動き始めます。<br /><br />
+                                            言葉の振動数が、あなたの「運命回線」を龍神のエネルギーへと再接続します。
                                         </p>
                                     </div>
                                 </div>
 
-                                <div className="bg-white/70 p-8 md:p-12 border border-dragon-cyan/30 rounded-sm shadow-sm relative overflow-hidden">
-                                    <div className="absolute top-0 right-0 p-4 opacity-10">
-                                        <svg width="150" height="150" viewBox="0 0 100 100" className="stroke-dragon-blue fill-none stroke-[1]">
-                                            <circle cx="50" cy="50" r="40" />
-                                            <path d="M50 10 L50 90 M10 50 L90 50" />
-                                        </svg>
-                                    </div>
-
-                                    <h3 className="text-center font-calligraphy text-xl font-bold mb-8 text-dragon-blue">授与・実践内容</h3>
-
-                                    <div className="space-y-8">
-                                        <div className="border-b border-dashed border-shrine-gold/50 pb-6">
-                                            <div className="flex flex-col md:flex-row justify-between items-baseline mb-2">
-                                                <h4 className="text-lg font-bold text-shrine-dark">龍神言霊授与＋21日間遠隔サポート</h4>
-                                                <span className="text-xl font-bold text-dragon-cyan">80,000円</span>
+                                <div ref={addToRefs} className="opacity-0 bg-white/70 p-8 md:p-12 border border-dragon-cyan/30 rounded-sm shadow-sm relative overflow-hidden">
+                                    <div className="absolute top-0 right-0 p-4 opacity-[0.05] seigaiha-pattern w-40 h-40"></div>
+                                    <h3 className="text-center font-calligraphy text-xl font-bold mb-8 text-dragon-blue">21日間プログラム</h3>
+                                    <div className="space-y-6 text-[15px] md:text-base leading-loose font-serif text-shrine-dark">
+                                        <div className="flex gap-4 items-start">
+                                            <div className="w-12 h-12 shrink-0 bg-dragon-blue/10 rounded-full flex items-center justify-center text-dragon-cyan font-bold text-sm">1〜7</div>
+                                            <div>
+                                                <p className="font-bold text-shrine-dark mb-1">第一週：浄化期</p>
+                                                <p className="text-shrine-gray text-sm">古い思考パターンが溶け始めます。好転反応として一時的な不調が出る場合がありますが、それは浄化のサインです。</p>
                                             </div>
-                                            <p className="text-shrine-gray text-sm">
-                                                あなた専用の言霊（マントラ）の授与と、日々の実践方法を伝授します。<br />
-                                                期間中は毎日、しょうじが遠隔でエネルギー調整を行います。
-                                            </p>
+                                        </div>
+                                        <div className="flex gap-4 items-start">
+                                            <div className="w-12 h-12 shrink-0 bg-dragon-blue/10 rounded-full flex items-center justify-center text-dragon-cyan font-bold text-sm">8〜14</div>
+                                            <div>
+                                                <p className="font-bold text-shrine-dark mb-1">第二週：書き換え期</p>
+                                                <p className="text-shrine-gray text-sm">潜在意識に新しい周波数が定着し始めます。小さな「偶然の一致」が増えてきます。</p>
+                                            </div>
+                                        </div>
+                                        <div className="flex gap-4 items-start">
+                                            <div className="w-12 h-12 shrink-0 bg-shrine-gold/20 rounded-full flex items-center justify-center text-shrine-gold font-bold text-sm">15〜21</div>
+                                            <div>
+                                                <p className="font-bold text-shrine-dark mb-1">第三週：接続完了期</p>
+                                                <p className="text-shrine-gray text-sm">龍神のエネルギーとの接続が安定します。直感が冴え、運命の流れに乗っている感覚が得られます。</p>
+                                            </div>
                                         </div>
                                     </div>
+                                    <p className="text-center mt-8 text-xs text-shrine-gray">※ 効果には個人差があります。</p>
                                 </div>
 
-                                <div className="mt-16 text-center">
-                                    <a href="index.html" className="inline-flex items-center gap-2 text-shrine-gray hover:text-dragon-cyan transition-colors font-serif text-sm tracking-widest border-b border-transparent hover:border-dragon-cyan pb-1">
-                                        <span>←</span>
-                                        <span>一覧へ戻る</span>
-                                    </a>
+                                <div className="mt-12 text-center">
+                                    <a href="index.html" className="inline-flex items-center gap-2 text-shrine-gray hover:text-dragon-cyan transition-colors font-serif text-sm tracking-widest border-b border-transparent hover:border-dragon-cyan pb-1"><span>←</span><span>一覧へ戻る</span></a>
                                 </div>
                             </article>
 
-                            {/* LINE CTA */}
-                            <div id="line" ref={addToRefs} className="opacity-0 translate-y-8 mt-16 md:mt-20">
+                            <div id="line" ref={addToRefs} className="opacity-0 translate-y-8">
                                 <div className="shrine-border p-8 md:p-16 text-center relative overflow-hidden">
+                                    <div className="absolute inset-0 seigaiha-pattern opacity-[0.03]"></div>
                                     <div className="relative z-10">
-                                        <h3 className="text-xl md:text-3xl font-bold font-calligraphy mb-4 md:mb-6">
-                                            <span className="dragon-text-effect">お申し込み・お問い合わせ</span>
-                                        </h3>
-                                        <p className="text-sm md:text-base leading-loose mb-8 md:mb-10 text-shrine-gray">
-                                            龍神接続のお申し込みは、<br className="md:hidden" />公式LINEにて承ります。<br />
-                                            ご希望のメニュー名を添えて、<br className="md:hidden" />静かに一言お送りください。
-                                        </p>
-
-                                        <a
-                                            href="https://lin.ee/mR2IPIr"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="inline-flex items-center justify-center gap-3 w-full md:w-auto px-8 md:px-10 py-4 md:py-5 bg-gradient-to-r from-dragon-blue to-ocean-teal text-white hover:from-ocean-teal hover:to-dragon-blue transition-all shadow-lg rounded-sm"
-                                        >
-                                            <span className="tracking-widest font-bold text-base md:text-lg">しょうじに相談</span>
-                                            <span className="text-sm">→</span>
+                                        <span className="inkan-stamp mb-4 mx-auto">縁</span>
+                                        <h3 className="text-xl md:text-3xl font-bold font-calligraphy mb-4 md:mb-6 mt-6"><span className="dragon-text-effect">お申し込み・お問い合わせ</span></h3>
+                                        <p className="text-[15px] md:text-base leading-loose mb-8 md:mb-10 text-shrine-gray">龍神接続のお申し込みは、<br className="md:hidden" />公式LINEにて承ります。<br />ご希望のメニュー名を添えて、<br className="md:hidden" />静かに一言お送りください。</p>
+                                        <a href="https://lin.ee/mR2IPIr" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-3 w-full md:w-auto px-8 md:px-12 py-5 md:py-6 bg-gradient-to-r from-dragon-blue to-ocean-teal text-white hover:from-ocean-teal hover:to-dragon-blue transition-all shadow-lg rounded-sm text-base md:text-lg animate-pulse-glow">
+                                            <span className="tracking-widest font-bold">しょうじに相談</span><span className="text-sm">→</span>
                                         </a>
-
                                         <p className="mt-6 md:mt-8 text-[10px] md:text-xs text-dragon-cyan tracking-widest">OFFICIAL LINE ACCOUNT</p>
                                     </div>
                                 </div>
                             </div>
-
                         </section>
 
-                        {/* --- Footer --- */}
                         <footer className="py-16 md:py-20 bg-gradient-to-b from-dragon-blue to-shrine-dark text-shrine-paper text-center relative z-10">
-                            <div className="flex flex-col items-center justify-center space-y-6 md:space-y-8">
-                                <div className="w-[1px] h-12 md:h-16 bg-dragon-cyan opacity-30"></div>
-                                <div className="font-calligraphy text-xl md:text-2xl tracking-[0.2em]">
-                                    <span className="dragon-text-effect">龍神接続</span>
-                                </div>
-                                <p className="text-[10px] md:text-xs font-serif tracking-widest opacity-60 leading-loose">
-                                    龍神との繋がりが<br />
-                                    あなたを導く
-                                </p>
-                                <div className="text-[10px] tracking-widest opacity-30 pt-6">
-                                    © Shoji Dragon God Reading.
-                                </div>
-                            </div>
+                            <div className="flex flex-col items-center justify-center space-y-6"><div className="w-[1px] h-12 bg-dragon-cyan opacity-30"></div><div className="font-calligraphy text-xl tracking-[0.2em]"><span className="dragon-text-effect">龍神接続</span></div><p className="text-[10px] font-serif tracking-widest opacity-60 leading-loose">龍神との繋がりが<br />あなたを導く</p><div className="text-[10px] tracking-widest opacity-30 pt-6">© Shoji Dragon God Reading.</div></div>
                         </footer>
-
                     </div>
                 </React.Fragment>
             );
         };
-
         ReactDOM.createRoot(document.getElementById('root')).render(<App />);
     </script>
 </body>
